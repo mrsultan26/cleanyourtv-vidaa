@@ -1,0 +1,473 @@
+{
+  "dock": [
+    "1",
+    "3",
+    "2",
+    "295"
+  ],
+  "helper_dock": [
+    "1",
+    "3",
+    "2",
+    "295"
+  ],
+  "clock_24h": false,
+  "browser": {
+    "search": "https://search.brave.com/search?q=%s",
+    "region": "za-en",
+    "links": [
+      {
+        "name": "Brave Search",
+        "url": "https://search.brave.com/"
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://www.wikipedia.org/"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Netflix",
+      "native": true,
+      "appId": "1",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Prime Video",
+      "native": true,
+      "appId": "2",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Apple TV",
+      "native": true,
+      "appId": "351",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "YouTube",
+      "native": true,
+      "appId": "3",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "شاهد MBC",
+      "native": true,
+      "appId": "24",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "TOD",
+      "native": true,
+      "appId": "1823",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "OSN+ Streaming App",
+      "native": true,
+      "appId": "252",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "ستارزبلاي",
+      "native": true,
+      "appId": "330",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "WatchiT",
+      "native": true,
+      "appId": "353",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "لجزيرة 360",
+      "native": true,
+      "appId": "2709",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Haystack TV Local + World News",
+      "native": true,
+      "appId": "227",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "ثمانية",
+      "native": true,
+      "appId": "2544",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Viu",
+      "native": true,
+      "appId": "232",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Disney+",
+      "native": true,
+      "appId": "295",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "DEEZER",
+      "native": true,
+      "appId": "47",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "DAZN",
+      "native": true,
+      "appId": "162",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "UEFA.tv",
+      "native": true,
+      "appId": "244",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "WeTV",
+      "native": true,
+      "appId": "363",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Triller TV.",
+      "native": true,
+      "appId": "245",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "MUBI",
+      "native": true,
+      "appId": "230",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "ToonGoggles",
+      "native": true,
+      "appId": "36",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Kidoodle TV",
+      "native": true,
+      "appId": "233",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "iWant",
+      "native": true,
+      "appId": "304",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Vod On Demand",
+      "native": true,
+      "appId": "184",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Plex",
+      "native": true,
+      "appId": "42",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "APP STORE",
+      "native": true,
+      "appId": "164",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Deviant Art",
+      "native": true,
+      "appId": "185",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "NBA",
+      "native": true,
+      "appId": "293",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "العربية",
+      "native": true,
+      "appId": "263",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "الحدث",
+      "native": true,
+      "appId": "294",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Al Jazeera",
+      "native": true,
+      "appId": "crawler_60006_al-jazeera",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "ALMAMLAKA TV",
+      "native": true,
+      "appId": "crawler_60006_almamlaka-tv",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Red Bull TV",
+      "native": true,
+      "appId": "79",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "AccuWeather",
+      "native": true,
+      "appId": "15",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "ChaupalTV",
+      "native": true,
+      "appId": "2089",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Game Center",
+      "native": true,
+      "appId": "35",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "iQIYI",
+      "native": true,
+      "appId": "307",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "UFC",
+      "native": true,
+      "appId": "355",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "TV Browser",
+      "native": true,
+      "appId": "16",
+      "icon": ""
+    },
+    {
+      "glow": [
+        140,
+        145,
+        160
+      ],
+      "name": "Sony LIV",
+      "native": true,
+      "appId": "324",
+      "icon": ""
+    }
+  ],
+  "greeting_name": "",
+  "sources": []
+}
