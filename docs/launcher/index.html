@@ -510,6 +510,7 @@
       // A native app needs the helper. This https page may not call a LAN http address, but it may navigate to
       // one: the helper opens the app and sends the browser back here. An app that works better through the helper
       // (YouTube's native app, Stremio with the streaming server) goes through it when there is one.
+      if (app.native && !state.helper) { toast('Open Home from the TV tile to launch ' + app.name); return; }
       if (app.native || (app.helperFirst && state.helper)) { viaHelper('app=' + encodeURIComponent(app.appId)); return; }
       try { sessionStorage.setItem('cyt-focus', String(focus.index)); } catch (e) {}
       setTimeout(function () { location.href = app.url; }, 120);
@@ -740,6 +741,12 @@
   }
 
   // ---------- start ----------
+  // The design is authored at the TV's 1920 x 1080 resolution. Fit it into smaller browser previews.
+  function fitPage() {
+    var scale = Math.min(1, window.innerWidth / 1920, window.innerHeight / 1080);
+    document.documentElement.style.zoom = String(scale);
+  }
+  fitPage(); window.addEventListener('resize', fitPage);
   tick(); setInterval(tick, 1000); network();
   if (document.fonts) document.fonts.ready.then(function () { lastMinute = -1; tick(); });   // the date's fit, in the real font
   function load(url) { return fetch(url, { cache: 'no-store' }).then(function (r) { if (!r.ok) throw r.status; return r.json(); }); }
@@ -757,7 +764,7 @@
       apps = apps.filter(function (a) { return removed.indexOf(a.appId) < 0; });
       state.removedCount = removed.length;
       // apps.json lists every app once; the dock depends on whether native apps can be opened.
-      apps = apps.filter(function (a) { return !a.native || state.helper; });
+      // Keep native apps visible in plain browser previews too. Launching them still needs the TV helper.
       var dock = (state.helper && s.helper_dock) || s.dock || [];
       var rank = function (a) { var i = dock.indexOf(a.appId); return i < 0 ? dock.length : i; };
       apps = apps.map(function (a, i) { return { a: a, i: i }; })
